@@ -1,4 +1,6 @@
 terraform {
+# for terraform cloud. if you are not using , just delete below cloud block
+# here
   cloud {
     organization = "@your organisation"
 
@@ -6,6 +8,7 @@ terraform {
       name = "@workspaces"
     }
   }
+# tp here
   required_providers {
     azurerm = {
       source  = "hashicorp/azurerm"
