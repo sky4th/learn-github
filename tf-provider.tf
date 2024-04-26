@@ -1,9 +1,9 @@
 terraform {
   cloud {
-    organization = "sky4th"
+    organization = "@your organisation"
 
     workspaces {
-      name = "learn-terraform-github-actions"
+      name = "@workspaces"
     }
   }
   required_providers {
