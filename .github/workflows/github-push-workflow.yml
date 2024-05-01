@@ -2,9 +2,6 @@ on:
  push:
    branches: # when someone pushes to main  or feature branch
       - 'feature/**'
-   branches-ignore:
-      - 'release/**'
-      - 'main'
    paths:
       - '**.js'
       - '**.py'
