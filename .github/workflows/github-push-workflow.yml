@@ -1,0 +1,17 @@
+on:
+ push:
+   branches: # when someone pushes to main  or feature branch
+      - 'feature/**'
+   branches-ignore:
+      - 'release/**'
+      - 'main'
+   paths:
+      - '**.js'
+      - '**.py'
+      - '**.tf'
+   paths-ignore:
+      - '**.txt'
+   tags:
+      - 'R1.**'
+   tags-ignore:
+      - 'F1.**'
