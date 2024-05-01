@@ -23,4 +23,9 @@ jobs:
     
     - name: Checkout
       uses: actions/checkout@v3
+    - name: Check object
+        run: |
+          cat << OBJECT
+          ${{ toJson(github) }}
+          OBJECT
 
