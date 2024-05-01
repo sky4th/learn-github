@@ -13,5 +13,3 @@ on:
       - '**.txt'
    tags:
       - 'R1.**'
-   tags-ignore:
-      - 'F1.**'
