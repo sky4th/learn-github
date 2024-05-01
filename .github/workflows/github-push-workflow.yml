@@ -6,7 +6,5 @@ on:
       - '**.js'
       - '**.py'
       - '**.tf'
-   paths-ignore:
-      - '**.txt'
    tags:
       - 'R1.**'
