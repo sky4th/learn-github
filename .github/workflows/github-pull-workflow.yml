@@ -1,13 +1,5 @@
 on:
- pull:
-   branches: # when someone pushes to main  or feature branch
-      - 'feature/**'
-   paths:
-      - '**.js'
-      - '**.py'
-      - '**.tf'
-   tags:
-      - 'R1.**'
+ workflow_dispatch:
 jobs:
   terraform:
     name: 'Terraform'
