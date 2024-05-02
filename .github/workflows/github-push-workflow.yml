@@ -15,7 +15,6 @@ jobs:
     runs-on: ubuntu-latest
     environment: 'dev'
     steps:
-    # Checkout the repository to the GitHub Actions runner
     - name: Check object
       run: |
           cat << OBJECT
